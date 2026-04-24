@@ -6,7 +6,7 @@ Built with **OpenAI Whisper**, **GPT-4o**, and **LLaMA 3.2** — with a clean **
 
 ---
 
-## ✨ Features
+## Features
 
 - 🎧 **Audio transcription** via OpenAI Whisper API or local Whisper (Hugging Face)
 - 📝 **Minutes generation** via GPT-4o or local LLaMA 3.2 (4-bit quantized)
@@ -16,7 +16,7 @@ Built with **OpenAI Whisper**, **GPT-4o**, and **LLaMA 3.2** — with a clean **
 
 ---
 
-## 📋 Output Format
+## Output Format
 
 Each set of minutes includes:
 - **Summary** — attendees, location, date
@@ -26,7 +26,7 @@ Each set of minutes includes:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 ```bash
@@ -66,11 +66,11 @@ Then open `http://localhost:7860` in your browser.
 | OpenAI GPT-4o | API key | Fast | Pay-per-use |
 | Local LLaMA 3.2 | GPU + HF token | Slower | Free |
 
-> 💡 **Recommended for most users:** OpenAI Whisper API + GPT-4o
+>  **Recommended for most users:** OpenAI Whisper API + GPT-4o
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-meeting-minutes/
@@ -83,7 +83,7 @@ ai-meeting-minutes/
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - [OpenAI API](https://platform.openai.com/) — Whisper transcription + GPT-4o minutes
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers) — Local Whisper + LLaMA
@@ -92,13 +92,8 @@ ai-meeting-minutes/
 
 ---
 
-## 📄 Sample Audio
+##  Sample Audio
 
 You can test with this Denver City Council meeting extract:  
 🔗 https://drive.google.com/file/d/1N_kpSojRR5RYzupz6nqM8hMSoEF_R7pU/view?usp=sharing
 
----
-
-## 🙏 Credits
-
-Original notebook by the LLM Engineering course. Improved and productionized with Gradio UI, streaming, error handling, and local/cloud engine flexibility.
